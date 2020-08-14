@@ -11,7 +11,7 @@ CREATE TABLE `items` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-CREATE TABLE `item_pic` (
+CREATE TABLE `item_pics` (
   `id` int(50) NOT NULL AUTO_INCREMENT,
   `items_id` int(50) DEFAULT NULL,
   `pic_name` varchar(50) DEFAULT NULL,
